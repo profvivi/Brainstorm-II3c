@@ -121,4 +121,12 @@ function mostraResultado(){
     caixaAlternativas.textContent = ""; 
 }
 
+//INCLUIR
+function respostaSelecionada(opcaoSelecionada) {
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+historiaFinal += afirmacoes + “ “;
+atual++;
+mostraPergunta();
+}
+
 mostraPergunta();
