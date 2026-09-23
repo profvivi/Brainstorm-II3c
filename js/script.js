@@ -46,7 +46,7 @@ function mostraResultado(){
     caixaAlternativas.textContent = "";
     
 }
-
+//incluir aula5
 function jogaNovamente() {
     stual= "0"
     historiaFinal = "";
