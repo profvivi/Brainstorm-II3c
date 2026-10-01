@@ -9,7 +9,7 @@
     --cor-texto: #D7F9FF;
 
 }
-
+/*incluir aula5*/
 body {
 background-color: var(--cor-fundo);
 color: var(--cor-texto);
@@ -52,16 +52,19 @@ button:hover{
     color: var(--cor-principal);
 }
 
+/*incluir aula5*/
 .caixa-alternativas{    /*aula5*/
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+/*incluir aula5*/
 .caixa-resultado{   /*aula5*/
     display: none;
 }
 
+/*incluir aula5*/
 .caixa-resultado.mostrar{    /*aula5*/
     display: block;
 }
