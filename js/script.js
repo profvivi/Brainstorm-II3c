@@ -23,6 +23,7 @@ function mostraPergunta() {
     mostraAlternativas();
 }
 
+//incluir aula4
 function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativas){
         const botaoAlternativas = document.createElement("button");
@@ -40,6 +41,7 @@ atual++;
 mostraPergunta();
 }
 
+//incluir aula4
 function mostraResultado(){
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
